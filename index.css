@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: 0px;
+}
+body{
+    height: 100vh;
+    background: url(watch.png) no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 50%;
+    height:250px;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow:0 0 3px;
+
+}
+h1{
+    text-align: center;
+}
+.button{
+    text-align: center;
+    padding: 25px;
+}
+#timer{
+    padding: 20px;
+    text-align: center;
+    font-size: 50px;
+}
+button {
+    margin:0,10px;
+    border:none;
+}
+button i{
+    font-size:2rem;
+    padding: 10px;
+    color:#fff;
+}
+#startButton,#stopButton,#resetButton{
+    text-align: center;
+}
+#play{
+    background-color: green;
+}
+#pause{
+    background-color: orange;
+}
+#reset{
+    background-color: red;
+}
